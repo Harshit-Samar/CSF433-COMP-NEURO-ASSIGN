@@ -1,4 +1,4 @@
-# Retinal Data Analysis Tool
+# LFP and MUA analysis of Retinal Data
 
 This project provides a Python script for analyzing retinal outputs at a single frequency using advanced signal processing techniques. The script is designed to process retinal data, compute and visualize Multi-Unit Activity (MUA), apply Gaussian fits to the data, and evaluate spatial and visual spread parameters for both MUA and Local Field Potential (LFP).
 
