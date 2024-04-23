@@ -18,17 +18,19 @@ The small cortical spread of LFP signals, the LFP and multi-unit activity (MUA) 
    ```
    pip install numpy matplotlib scipy
 ### USAGE
-Run the script directly from the command line: ```python retinal_analysis.py```
-
+Run the script directly from the command line: 
+``` 
+python retinal_analysis.py
+```
 # Project Overview
 ### Purpose
-The main objective of this project is to analyze retinal outputs, specifically focusing on the response of the retina to vertical bars moving at different velocities. By processing 'ON' and 'OFF' events—where 'ON' events are typically associated with an increase in light intensity detected by retinal cells, and 'OFF' events are associated with a decrease—the project aims to understand how these changes affect retinal activity. Such analysis is crucial for research in visual neuroscience, helping to elucidate how visual information is processed at the retinal level.
+The main objective of this project is to analyze signals such as MUA and LFP and then relate these signals with the cortical spread of LFP. These signals help to understand how different areas of the brain are involved in visual processing.
 
 ## METHODOLOGY
 Retinal responses to moving vertical bars were recorded via a multi-electrode array, capturing the neural activity across an 81-unit grid. Event timestamps, reflecting 'ON' (increase in light intensity) and 'OFF' (decrease in light intensity) stimuli responses, were extracted and stored in a structured dataset for analysis.
 
 # CONCLUSION
--    The visual spreads of MUA and LFP were similar , visual spread of MUA being slightly less than LFP
--    Varying MUA spread within 30μm to 100μm range had no notable impact on their estimation of Local Field Potential (LFP) cortical spread.
--   The relatively small value of cortical spread is one important reason why the visual spreads of MUA and LFP are so similar.
+-       The visual spreads of MUA and LFP were similar , visual spread of MUA being slightly less than LFP
+-       Varying MUA spread within 30μm to 100μm range had no notable impact on their estimation of Local Field Potential (LFP) cortical spread.
+-       The relatively small value of cortical spread is one important reason why the visual spreads of MUA and LFP are so similar.
 
