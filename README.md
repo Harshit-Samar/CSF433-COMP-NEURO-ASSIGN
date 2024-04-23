@@ -30,7 +30,7 @@ The main objective of this project is to analyze signals such as MUA and LFP and
 Retinal responses to moving vertical bars were recorded via a multi-electrode array, capturing the neural activity across an 81-unit grid. Event timestamps, reflecting 'ON' (increase in light intensity) and 'OFF' (decrease in light intensity) stimuli responses, were extracted and stored in a structured dataset for analysis.
 
 # CONCLUSION
--       The visual spreads of MUA and LFP were similar , visual spread of MUA being slightly less than LFP
--       Varying MUA spread within 30μm to 100μm range had no notable impact on their estimation of Local Field Potential (LFP) cortical spread.
--       The relatively small value of cortical spread is one important reason why the visual spreads of MUA and LFP are so similar.
+-    The visual spreads of MUA and LFP were similar , visual spread of MUA being slightly less than LFP
+-    Varying MUA spread within 30μm to 100μm range had no notable impact on their estimation of Local Field Potential (LFP) cortical spread.
+-    The relatively small value of cortical spread is one important reason why the visual spreads of MUA and LFP are so similar.
 
