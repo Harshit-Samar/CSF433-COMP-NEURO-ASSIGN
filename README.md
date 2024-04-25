@@ -20,7 +20,7 @@ The small cortical spread of LFP signals, the LFP and multi-unit activity (MUA) 
 ### USAGE
 Run the script directly from the command line: 
 ``` 
-python retinal_analysis.py
+python3 retinal_analysis.py
 ```
 # Project Overview
 ### Purpose
